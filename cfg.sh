@@ -22,6 +22,14 @@ chsh -s $(which zsh)
 
 echo
 echo
+echo install sqlite - required for zsh autocompletion
+echo
+
+sudo dnf -yq install sqlite
+
+
+echo
+echo
 echo install tweaks
 echo
 
