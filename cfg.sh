@@ -81,6 +81,7 @@ echo install latex
 echo
 
 sudo dnf -yq install texlive texlive-latex texmaker
+sudo dnf -yq install texlive-scheme-full
 
 
 echo
