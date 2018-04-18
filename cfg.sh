@@ -124,6 +124,14 @@ echo "[[ \$- = *i* ]] && source ~/liquidprompt/liquidprompt" >> .zshrc
 
 echo
 echo
+echo new wallpaper
+echo
+
+gsettings set org.gnome.desktop.background picture-uri https://raw.githubusercontent.com/tmolcard/fedora-config/master/wallpaper/desktop.jpg?token=AVlAAwxdDd12kSAcEu_JjF53Q5KWTcLbks5a4DT2wA%3D%3D
+
+
+echo
+echo
 echo restart now
 echo
 
