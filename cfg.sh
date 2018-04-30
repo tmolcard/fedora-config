@@ -33,7 +33,7 @@ echo
 echo install tweaks
 echo
 
-sudo dnf install gnome-tweak-tool
+sudo dnf -yq install gnome-tweak-tool
 
 cd ~/.mozilla/firefox/*.default/
 mkdir chrome
@@ -81,7 +81,6 @@ echo install latex
 echo
 
 sudo dnf -yq install texlive texlive-latex texmaker
-sudo dnf -yq install texlive-scheme-full
 
 
 echo

@@ -18,3 +18,9 @@ For extentions go to [extentions](https://extensions.gnome.org/)
 
 ### Warning
 when zsh is launched exit it with `exit`.
+
+### Other
+For complete LateX extentions run :
+```
+sudo dnf -yq install texlive-scheme-full
+```
